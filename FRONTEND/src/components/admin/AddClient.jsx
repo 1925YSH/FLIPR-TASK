@@ -97,7 +97,7 @@ const AddClient = () => {
     formDataToSend.append("image", base64Image); // Add the Base64 image to the form data
 
     try {
-      const response = await axios.post(" https://filprtaskbackend-5.onrender.com/api/clients/add", {
+      const response = await axios.post("https://filprtaskbackend-5.onrender.com/api/clients/add", {
         name: formData.name,
         designation:formData.designation,
         description: formData.description,
